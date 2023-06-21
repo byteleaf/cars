@@ -20,7 +20,7 @@ class CarsControllerTest {
     private MockMvc mockMvc;
 
     @Test
-    public void getAllEmployeesAPI() throws Exception
+    void getAllEmployeesAPI() throws Exception
     {
         mockMvc.perform(MockMvcRequestBuilders
                         .get("/api/cars")
